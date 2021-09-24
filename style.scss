@@ -1,0 +1,31 @@
+$color: yellow;
+$back: rgb(223, 197, 197);
+
+html {
+  background-color: $back;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: red;
+  background-color: $back;
+  margin-top: 60px;
+
+  h1 {
+    color: green
+  }
+
+  h3 {
+    color: $color
+  }
+
+  h4 {
+    color: hotpink;
+  }
+}
+
+
+
